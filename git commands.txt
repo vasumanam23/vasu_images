@@ -1,0 +1,12 @@
+git clone https://github.com/rajabhavanam/aem-batch2.git => to clone the repo to local.
+git checkout branchname        => checkout to the respective branch.
+git pull                       => to pull latest code.
+--Do changes
+git checkout -b branchname     =>create new branch and chekcout to the same.
+git status                     => to see the changed files.
+git gui                        => to know what changes has been done in the modified files.
+git add filename               => to add the changes to local git.
+git commit -m "commit message" => to commit the changes to local git.
+git push -u origin branchname  =>to load the branch with changes to git repo.
+
+Double check the changes, select reviewers and create PR.
